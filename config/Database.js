@@ -6,17 +6,13 @@ const Sequelize = require("sequelize");
 //     timezone: '+05:30',
 // });
 
-const db = new Sequelize('u139194496_primescapital', 'u139194496_primescapital', 'Primescapital@123', {
+const db = new Sequelize('', '', '', {
     host: "srv1495.hstgr.io",
     dialect: "mysql",
     timezone: '+05:30',
 });
 
 
-// const db = new Sequelize('fyjrbbgt_crm', 'fyjrbbgt_siddharth', 'Siddharth@123', {
-//     host: "localhost",
-//     dialect: "mysql",
-//     timezone: '+05:30',
-// });
+
 
 module.exports = db;
